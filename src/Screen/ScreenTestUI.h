@@ -19,6 +19,7 @@ public:
 
     void swapToTestScreen2();
     void swapToAnim();
+    void swapToEdit();
     void popScreen();
     
 

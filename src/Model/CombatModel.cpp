@@ -18,9 +18,41 @@ void CombatModel::render(CombatDisplayer* combatDisplayer)
 	map_->draw(combatDisplayer);
 }
 
+void CombatModel::toggleMapObstacles()
+{
+	map_->toggleEdit();
+}
+
+void CombatModel::newMapObstaclesGroup()
+{
+	map_->newObstacle();
+}
+
+void CombatModel::clearMapObstacleGroup()
+{
+	map_->clearGroup();
+}
+
+void CombatModel::removeLastPoint()
+{
+	map_->removeLastObstacle();
+}
+
+void CombatModel::saveMapPoint()
+{
+	map_->save();
+}
+
 void CombatModel::recieve(MouseMoveEvent* ev, EventResponse** rep)
 {
 	map_->setOldMouseView(ev->window()->mapPixelToCoords(sf::Vector2i(ev->x(), ev->y()), map_->getView()));
+}
+
+void CombatModel::recieve(MouseRightClickEvent* ev, EventResponse** rep)
+{
+	sf::Vector2f pos = ev->window()->mapPixelToCoords(sf::Vector2i(ev->x(), ev->y()), map_->getView());
+	map_->setObstaclePoint(pos);
+	ev->accept();
 }
 
 void CombatModel::recieve(MouseLeftDragEvent* ev, EventResponse** rep)

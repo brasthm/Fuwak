@@ -10,6 +10,7 @@
 class DisplayGroup {
 public:
 	DisplayGroup() : view(DEFAULT_VIEW){};
+	DisplayGroup(sf::View v) : view(v) {};
 	DisplayGroup(sf::View v, const std::string& t) : view(v){ 
 		state.texture = RessourceLoader::getTexture(t);
 	};
@@ -34,6 +35,7 @@ public:
 	void drawTriangle(sf::Vector2f p1, sf::Vector2f p2, sf::Vector2f p3, sf::Vector2f t1, sf::Vector2f t2, sf::Vector2f t3);
 	void clear();
 	void newGroup();
+	void newGroup(sf::View view);
 	void newGroup(sf::View view, const std::string &textureStrting);
 protected:
 	std::vector<DisplayGroup> groups_;

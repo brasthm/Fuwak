@@ -99,3 +99,8 @@ UIModel* ScreenManager::getUIModel()
 {
 	return uiModel_;
 }
+
+CombatModel* ScreenManager::getCombatModel()
+{
+	return combatModel_;
+}

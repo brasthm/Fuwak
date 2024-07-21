@@ -14,11 +14,20 @@ public:
 
 	void render(CombatDisplayer* combatDisplayer);
 
+	void toggleMapObstacles();
+	void newMapObstaclesGroup();
+
+	void clearMapObstacleGroup();
+	void removeLastPoint();
+
+	void saveMapPoint();
+	
+
 	void recieve(KeyboardPressEvent* ev, EventResponse** rep) override {};
 	void recieve(KeyboardHoldEvent* ev, EventResponse** rep) override {};
 	void recieve(MouseMoveEvent* ev, EventResponse** rep) override;
 	void recieve(MouseHoverEvent* ev, EventResponse** rep) override {};
-	void recieve(MouseRightClickEvent* ev, EventResponse** rep) override {};
+	void recieve(MouseRightClickEvent* ev, EventResponse** rep) override;
 	void recieve(MouseLeftClickEvent* ev, EventResponse** rep) override {};
 	void recieve(MouseRightDragEvent* ev, EventResponse** rep) override {};
 	void recieve(MouseLeftDragEvent* ev, EventResponse** rep) override;

@@ -33,10 +33,12 @@ public:
 	void addStack(Screen* screen);
 	void skipStack(Screen* screen);
 	void back();
+	
 
 
 	EventDispatcher* getDispatcher();
 	UIModel* getUIModel();
+	CombatModel* getCombatModel();
 
 private:
 	std::vector<Screen*> stack_;

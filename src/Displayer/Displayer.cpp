@@ -105,6 +105,11 @@ void Displayer::newGroup()
 	groups_.emplace_back();
 }
 
+void Displayer::newGroup(sf::View view)
+{
+	groups_.emplace_back(view);
+}
+
 void Displayer::newGroup(sf::View view, const std::string& textureStrting)
 {
 	groups_.emplace_back(view, textureStrting);
