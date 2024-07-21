@@ -24,3 +24,14 @@ void CombatDisplayer::displayMap(Map* map)
 		}
 	}
 }
+
+void CombatDisplayer::displayBattleEntity(BattleEntity* bEntity, Map* map)
+{
+	auto size = RessourceLoader::getTexture(bEntity->getIconTextureString())->getSize();
+	auto pos = bEntity->getPosition();
+	auto iconSize = bEntity->getIconSize();
+
+	newGroup(map->getView(), bEntity->getIconTextureString());
+	drawQuad(pos.x - iconSize.x / 2, pos.y - iconSize.y / 2,  iconSize.x, iconSize.y,
+			 0, 0, size.x, size.y);
+}

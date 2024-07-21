@@ -4,6 +4,7 @@
 #include "../EventHandler/EventReciever.h"
 
 #include "Combat/Map.h"
+#include "Combat/BattleEntity.h"
 #include "../Displayer/CombatDisplayer.h"
 
 class CombatModel : public EventReciever
@@ -38,6 +39,7 @@ public:
 
 private:
 	Map *map_;
+	BattleEntity* bEntity_;
 };
 
 #endif

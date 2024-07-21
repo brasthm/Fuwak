@@ -5,17 +5,20 @@
 CombatModel::CombatModel(EventDispatcher* ed) : EventReciever(ed)
 {
 	map_ = new Map();
+	bEntity_ = new BattleEntity();
 }
 
 CombatModel::~CombatModel()
 {
 	delete map_;
+	delete bEntity_;
 }
 
 void CombatModel::render(CombatDisplayer* combatDisplayer)
 {
 	combatDisplayer->clear();
 	map_->draw(combatDisplayer);
+	bEntity_->draw(combatDisplayer, map_);
 }
 
 void CombatModel::toggleMapObstacles()

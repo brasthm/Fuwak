@@ -5,7 +5,10 @@
 
 ScreenManager::ScreenManager()
 {
-	window_.create(sf::VideoMode(WINDOW_W, WINDOW_H), "Fuwak");
+	sf::ContextSettings settings;
+	settings.antialiasingLevel = 8;
+
+	window_.create(sf::VideoMode(WINDOW_W, WINDOW_H), "Fuwak", sf::Style::Default, settings);
 	window_.setSize(sf::Vector2u(1280, 720));
 	
 	sfmlEventHandler_ = new SFMLEventHandler();

@@ -83,7 +83,7 @@ void Displayer::drawText(float x, float y, float w, float h, std::string& str, i
 void Displayer::drawQuad(float x, float y, float w, float h, float xt, float yt, float wt, float ht)
 {
 	sf::Vector2f p1(x, y), p2(x + w, y), p3(x, y + h), p4(x + w, y + h);
-	sf::Vector2f t1(x, y), t2(x + w, y), t3(x, y + h), t4(x + w, y + h);
+	sf::Vector2f t1(xt, yt), t2(xt + wt, yt), t3(xt, yt + ht), t4(xt + wt, yt + ht);
 	drawTriangle(p1, p2, p3, t1, t2, t3);
 	drawTriangle(p2, p3, p4, t2, t3, t4);
 }
