@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Displayer">
+      <UniqueIdentifier>{e6febd10-5d03-4700-948d-c855e56d28ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{c7cee151-08f9-4bf7-a26d-c758fd230ef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Combat">
+      <UniqueIdentifier>{81fca679-8f88-44ec-965b-3a0dad39b88d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\UI">
+      <UniqueIdentifier>{8f4846ab-3621-42c5-b7a0-8c8edccc751b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventHandler">
+      <UniqueIdentifier>{af163f33-4e88-4398-9a9d-799feb5cd28f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Screen">
+      <UniqueIdentifier>{829790f1-8254-42b9-9533-d72172282dbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{e000f7c8-5eb4-4097-b96a-42acc7adc0a7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Displayer\Displayer.cpp">
+      <Filter>Displayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Displayer\MasterDisplayer.cpp">
+      <Filter>Displayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Displayer\ScreenEditMap.cpp">
+      <Filter>Displayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Displayer\UIDisplayer.cpp">
+      <Filter>Displayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Displayer\CombatDisplayer.cpp">
+      <Filter>Displayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\CombatModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UIModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\Combat\Map.cpp">
+      <Filter>Model\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\Combat\BattleEntity.cpp">
+      <Filter>Model\Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIContainer.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIDialog.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIHorizontalStacker.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIPanel.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIRichText.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIText.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIVerticalStacker.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIButton.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Model\UI\UIComponant.cpp">
+      <Filter>Model\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EventHandler\EventHandler.cpp">
+      <Filter>EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EventHandler\EventLogger.cpp">
+      <Filter>EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EventHandler\EventReciever.cpp">
+      <Filter>EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EventHandler\SFMLEventHandler.cpp">
+      <Filter>EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EventHandler\Event.cpp">
+      <Filter>EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\EventHandler\EventDispatcher.cpp">
+      <Filter>EventHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Screen\ScreenEditMap.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Screen\ScreenManager.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Screen\ScreenTestA.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Screen\ScreenTestAnim.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Screen\ScreenTestB.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Screen\ScreenTestC.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Screen\ScreenTestUI.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Screen\Screen.cpp">
+      <Filter>Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\System\RessourceLoader.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\System\Utils.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\System\easing.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Displayer\Displayer.h">
+      <Filter>Displayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Displayer\MasterDisplayer.h">
+      <Filter>Displayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Displayer\ScreenEditMap.h">
+      <Filter>Displayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Displayer\UIDisplayer.h">
+      <Filter>Displayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Displayer\CombatDisplayer.h">
+      <Filter>Displayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\CombatModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UIModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\Combat\BattleEntity.h">
+      <Filter>Model\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\Combat\Map.h">
+      <Filter>Model\Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIComponant.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIContainer.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIDialog.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIHorizontalStacker.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIPanel.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIRichText.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIText.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIVerticalStacker.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Model\UI\UIButton.h">
+      <Filter>Model\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventHandler\EventDispatcher.h">
+      <Filter>EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventHandler\EventHandler.h">
+      <Filter>EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventHandler\EventLogger.h">
+      <Filter>EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventHandler\EventReciever.h">
+      <Filter>EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventHandler\SFMLEventHandler.h">
+      <Filter>EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\EventHandler\Event.h">
+      <Filter>EventHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Screen\ScreenEditMap.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Screen\ScreenManager.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Screen\ScreenTestA.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Screen\ScreenTestAnim.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Screen\ScreenTestB.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Screen\ScreenTestC.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Screen\ScreenTestUI.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Screen\Screen.h">
+      <Filter>Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\System\Random.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\System\RessourceLoader.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\System\Utils.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\System\DJ.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\System\easing.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\System\Interpolable.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\main.h">
+      <Filter>Fichiers sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
