@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Fuwak"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cyril/CLionProjects/Fuwak/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cyril/CLionProjects/Fuwak/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cyril/CLionProjects/Fuwak/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fuwak">
+				<Option output="/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Fuwak" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cyril/CLionProjects/Fuwak/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fuwak"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fuwak/fast">
+				<Option output="/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Fuwak" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cyril/CLionProjects/Fuwak/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fuwak/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cyril/CLionProjects/Fuwak/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/CombatDisplayer.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/CombatDisplayer.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/Displayer.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/Displayer.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/MasterDisplayer.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/MasterDisplayer.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/ScreenEditMap.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/ScreenEditMap.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/UIDisplayer.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Displayer/UIDisplayer.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/Event.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/Event.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/EventDispatcher.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/EventDispatcher.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/EventHandler.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/EventHandler.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/EventLogger.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/EventLogger.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/EventReciever.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/EventReciever.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/SFMLEventHandler.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/EventHandler/SFMLEventHandler.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/Combat/BattleEntity.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/Combat/BattleEntity.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/Combat/Map.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/Combat/Map.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/CombatModel.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/CombatModel.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIButton.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIButton.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIComponant.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIComponant.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIContainer.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIContainer.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIDialog.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIDialog.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIHorizontalStacker.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIHorizontalStacker.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIPanel.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIPanel.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIRichText.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIRichText.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIText.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIText.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIVerticalStacker.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UI/UIVerticalStacker.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UIModel.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Model/UIModel.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/Screen.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/Screen.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenEditMap.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenEditMap.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenManager.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenManager.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestA.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestA.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestAnim.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestAnim.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestB.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestB.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestC.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestC.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestUI.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/Screen/ScreenTestUI.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/DJ.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/Interpolable.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/Random.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/RessourceLoader.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/RessourceLoader.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/Utils.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/Utils.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/easing.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/System/easing.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/main.cpp">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/src/main.h">
+			<Option target="Fuwak"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cyril/CLionProjects/Fuwak/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
