@@ -39,12 +39,16 @@ public:
 	sf::Vector2f getPosition();
 	sf::Vector2u getIconSize();
 
+
+	void move(sf::Vector2f delta);
+
 private:
 	std::string name_, textureIconPath_;
 	BattleStatistic<int> healthPoint_, abilityPoint_;
 	BattleStatistic<float> mouvementPoint_;
 	sf::Vector2f position_;
 	sf::Vector2u iconSize_;
+	float speed_;
 };
 
 

@@ -56,6 +56,9 @@ void ScreenManager::display()
 {
 	bool quit = false;
 	while (!quit && !stack_.empty()) {
+	    ElapsedTime::tock();
+	    ElapsedTime::tick();
+
 		quit = sfmlEventHandler_->pollEvent(window_);
 
 		combatModel_->render(combatDisplayer_);

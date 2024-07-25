@@ -25,7 +25,7 @@ public:
 	
 
 	void recieve(KeyboardPressEvent* ev, EventResponse** rep) override {};
-	void recieve(KeyboardHoldEvent* ev, EventResponse** rep) override {};
+	void recieve(KeyboardHoldEvent* ev, EventResponse** rep) override;
 	void recieve(MouseMoveEvent* ev, EventResponse** rep) override;
 	void recieve(MouseHoverEvent* ev, EventResponse** rep) override {};
 	void recieve(MouseRightClickEvent* ev, EventResponse** rep) override;
@@ -40,6 +40,8 @@ public:
 private:
 	Map *map_;
 	BattleEntity* bEntity_;
+
+	void move();
 };
 
 #endif

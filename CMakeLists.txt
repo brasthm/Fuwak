@@ -4,6 +4,7 @@ project(Fuwak)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Fuwak
+        Fuwak/main.cpp
         src/System/easing.h
         src/System/Utils.cpp
         src/System/RessourceLoader.h
